@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My first website - Contact</title>
+		<link rel="shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.production.css">
+	</head>
+
+	<body>
+		<header class="page-header">
+			<img src="img/logo.png" alt="logo" class="page-header__item" id="logo">
+				<nav class="main-navigation page-header__item">
+					<ul role="menubar" class="navigation-list">
+						<li role="presentation"><a href="index.html" role="menuitem" class="navigation-list__item">Home</a></li>
+						<li role="presentation"><a href="about.html" role="menuitem" class="navigation-list__item">About me</a></li>
+						<li role="presentation"><a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a></li>
+						<li role="presentation"><a href="work.html" role="menuitem" class="navigation-list__item">Work</a></li>
+					</ul>
+				</nav>
+		</header>
+		<div class="contact-informations">
+			<h1>Contact</h1>
+			<div>
+				Suzon Bachet<br>
+				Käthe Niederkirchner Str. 18<br>
+				10407 Berlin<br>
+				<br>
+				Tel <a href="tel:+491726906481">+49 172 6906481</a><br>
+				Skype <a href="skype:suzon.bachet">suzon.bachet</a><br>
+				<a href="mailto:suzon.bachet@gmail.com">suzon.bachet@gmail.com</a>
+			</div>
+			<p><a href="mailto:suzon.bachet@gmail">Contact me</a></p>
+			<form action="" method="post" id="contact-form">
+				<label class="standart-label" for="contact-email">Email: </label>
+				<input type="email" id="contact-email" required>
+
+				<label class="standart-label" for="contact-telephone">Telephone: </label>
+				<input type="tel" id="contact-telephone">
+
+				<label class="standart-label" for="contact-message">Message: </label>
+				<textarea maxlength="240" id="contact-message" required></textarea>
+
+				<input type="submit" name="Send message">
+			</form>
+		</div>
+		<footer class="page-footer">
+			<p>Find me on</p>
+				<div class="social-media">
+					<img src="img/linkedin_icon.svg" alt="LinkedIn">
+					<img src="img/instagram_icon.svg" alt="Instagram">
+					<img src="img/github_icon.svg" alt="GitHub">
+				</div>
+		</footer>
+	<script src="js/tota11y.min.js"></script>
+	</body>
+
+</html>
