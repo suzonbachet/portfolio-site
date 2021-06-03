@@ -120,12 +120,18 @@ button:hover, button:focus,
   text-align: center;
 }
 
-.profile, .about-informations, .contact-infornations {
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-informations, .contact-informations {
   max-width: 700px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
 }
 
 .page-header {
