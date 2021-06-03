@@ -8,10 +8,10 @@ Secondary color (ultra light pink): #FAF9F9
 */
 
 :root {
-  	--primary-color: #317264;
-  	--secondary-color: #FAF9F9;
-  	--dark-grey: #3E4251;
-  	--sun-color-1: #edc655;
+  --primary-color: #317264;
+  --secondary-color: #FAF9F9;
+  --dark-grey: #3E4251;
+  --sun-color-1: #edc655;
 	--sun-color-2: #fcffad;
 	--sun-color-3: #f76414;
 	--font-weight-headers: 700;
@@ -120,9 +120,12 @@ button:hover, button:focus,
   text-align: center;
 }
 
-.profile .about-informations {
+.profile, .about-informations, .contact-infornations {
   max-width: 700px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .page-header {
