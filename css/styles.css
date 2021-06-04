@@ -84,11 +84,6 @@ button:hover, button:focus,
   opacity: 0.8;
 }
 
-.button__secondary {
-  background-color: #FAF9F9;
-  color: #317264;
-}
-
 .navigation-list, .about-list {
   list-style-type: none;
 }
