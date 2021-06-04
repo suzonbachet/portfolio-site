@@ -146,6 +146,11 @@ button:hover, button:focus,
   text-align: right;
 }
 
+#contact-form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;
@@ -206,6 +211,7 @@ button:hover, button:focus,
     font-size: 22px;
   }
 }
+
 @keyframes color-change {
   0% {
     fill: #edc655;
