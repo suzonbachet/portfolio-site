@@ -2,13 +2,13 @@
 Colors used
 
 Text color (dark grey): #3E4251
-Primary color (dark green): #317264
+Primary color (light green): #80B3A5
 Secondary color (ultra light pink): #FAF9F9
 
 */
 
 :root {
-  --primary-color: #317264;
+  --primary-color: #80B3A5;
   --secondary-color: #FAF9F9;
   --dark-grey: #3E4251;
   --sun-color-1: #edc655;
@@ -157,7 +157,7 @@ button:hover, button:focus,
 }
 
 .grid__item {
-  background-color: #122b25;
+  background-color: #80B3A5;
   padding: 20px;
 }
 
@@ -170,7 +170,7 @@ button:hover, button:focus,
   }
 
   .grid__item {
-    background-color: #122b25;
+    background-color: #80B3A5;
     width: auto;
     min-height: auto;
     margin: 0;
