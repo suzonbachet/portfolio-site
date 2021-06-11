@@ -63,7 +63,7 @@ button,
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s opacity;
-          transition-duration: 0.2s opacity;
+  transition-duration: 0.2s opacity;
 }
 
 button:hover, button:focus,
