@@ -96,6 +96,13 @@ button:hover, button:focus,
   border-radius: 50%;
 }
 
+@media (max-width: 800px) {
+  .profile__portrait {
+    width: 30%;
+    height: auto;
+  }
+}
+
 .page-footer {
   clear: both;
   display: -webkit-box;
@@ -127,6 +134,11 @@ button:hover, button:focus,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.contact-informations__item {
+  width: 10px;
+  height: auto;
 }
 
 .page-header {
@@ -225,13 +237,6 @@ button:hover, button:focus,
 
   h1 {
     font-size: 22px;
-  }
-}
-
-@media (max-width: 800px) {
-  .profile__portrait {
-    width: 30%;
-    height: auto;
   }
 }
 
