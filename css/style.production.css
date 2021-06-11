@@ -170,6 +170,10 @@ button:hover, button:focus,
   flex-flow: column wrap;
 }
 
+.submit_button {
+  margin-top: 10px;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;

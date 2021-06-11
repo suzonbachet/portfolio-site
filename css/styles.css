@@ -109,6 +109,13 @@ button:hover, button:focus,
   border-radius: 50%;
 }
 
+@media (max-width: 800px) {
+  .profile__portrait {
+    width: 30%;
+    height: auto;
+  }
+}
+
 .page-footer {
   clear: both;
   display: flex;
@@ -212,11 +219,8 @@ button:hover, button:focus,
   }
 }
 
-@media (max-width: 800px) {
-  .profile__portrait {
-    width: 30%;
-    height: auto;
-  }
+.submit_button {
+  margin-top: 10px;
 }
 
 @keyframes color-change {
