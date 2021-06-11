@@ -212,6 +212,13 @@ button:hover, button:focus,
   }
 }
 
+@media (max-width: 800px) {
+  .profile__portrait {
+    width: 30%;
+    height: auto;
+  }
+}
+
 @keyframes color-change {
   0% {
     fill: #edc655;
