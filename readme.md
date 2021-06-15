@@ -10,5 +10,5 @@ Technologies used:
 - JavaScript
 
 
-
+![](img/screenshot_portfolio_suzon.jpg)
 
