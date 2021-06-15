@@ -10,5 +10,5 @@ Technologies used:
 - JavaScript
 
 
-![](img/screenshot_portfolio_suzon.jpg)
+![screenshot_portfolio_suzon](https://user-images.githubusercontent.com/85120028/122029181-f4dbcc80-cdcc-11eb-8c0e-e372c05778dc.png)
 
